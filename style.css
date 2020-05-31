@@ -1,0 +1,111 @@
+body {
+	background-color: lightblue;
+}
+
+#title {
+	text-align: center;
+	margin: 10 10px;
+}
+
+nav, footer {
+	height: 50px;
+	background-color: teal;
+	width: 100%
+	line-height: 50px;
+	color: white;
+}
+
+nav ul {
+	list-style: none;
+	padding-left: 0;
+	display: flex;	
+}	
+
+nav ul li {
+	background-color: lightblue;
+	font-size: 20px;	
+	margin: 10px 10px;
+} 
+
+nav ul li:hover {
+	background-color: blue;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color :white;
+	display: block;
+	padding: 0 10px;
+}
+
+
+
+#img {
+	width: 60%;
+	height: auto;	
+}
+
+#img:hover {
+	filter: invert(30%);
+}
+
+.img {
+	width: 60%;
+	height: auto;
+}
+
+.img:hover {
+	filter: invert(30%);
+}
+
+article {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	margin: 20px;
+}
+
+#about {
+	width: 50%;
+	margin: 25px;
+	font-size: 20px;
+	margin: 20px;
+}
+#about p:first-child {
+	margin-bottom: 50px;
+}
+.green {
+	width: 500px;
+	background-color: white;
+	border-radius: 10px;
+	margin-bottom: 2px;
+	padding-right:  5px;
+}
+.green h2 {
+	text-align: center;
+	
+}
+.green li {
+	font-size: 15px;
+	
+}
+
+#lower-img {
+	text-align: center;
+}
+
+#lower-img:hover {
+		filter: invert(30%);
+}
+
+footer {
+	padding-left: 20px;
+	padding-top: 5px;
+}
+
+
+
+
+
+
+
